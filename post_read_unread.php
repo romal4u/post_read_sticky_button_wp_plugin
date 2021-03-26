@@ -57,9 +57,9 @@ if (!function_exists('veepru_readUnreadrep_callack')) {
         <h1 class="wp-heading-inline"><?php _e('Post Read Report')?></h1>
         <hr class="wp-header-end">
         <form id="read_unread" method="get">
-        <input type="hidden" name="page" value="<?php echo sanitize_text_field($_REQUEST['page']); ?>">
         <?php
         $wp_list_table->display(); ?>
+        </form>
         </div>
         <?php
     }
